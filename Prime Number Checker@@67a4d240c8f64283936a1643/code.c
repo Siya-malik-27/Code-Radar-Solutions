@@ -4,7 +4,7 @@ int isprime(int n) {
     if (n < 2) 
         return 0;
 
-    for (int i = 2; i< n; i++) {
+    for (int x = 2; x< n; x++) {
         if (n % i == 0)
             return 0;
     }
@@ -15,7 +15,7 @@ int main() {
     int t;
     scanf("%d", &t);
 
-    for (int i = 0; i < t; i++) {
+    for (int i = 1; i<= t; i++) {
         int num;
         scanf("%d", &num);
         printf("%d\n", isprime(num));
