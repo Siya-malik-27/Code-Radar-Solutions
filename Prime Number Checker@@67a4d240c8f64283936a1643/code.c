@@ -7,8 +7,12 @@ int isPrime(int n) {
     for (int x = 2; x< n; x++) {
         if (n % x== 0)
             return 0;
+
+        else{
+            return 1;
+        }
     }
-    return 1;
+    
 }
 
 
