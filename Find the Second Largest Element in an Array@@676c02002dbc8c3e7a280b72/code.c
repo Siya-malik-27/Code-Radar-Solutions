@@ -14,7 +14,7 @@ int main(){
         if(num>max){
             max=num;
         }
-        if(smax<max && num!=max){
+        else if(smax<max && num!=max){
             smax=num;
         }
         }
