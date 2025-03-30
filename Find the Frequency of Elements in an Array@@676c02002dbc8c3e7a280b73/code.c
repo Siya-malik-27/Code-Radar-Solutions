@@ -20,7 +20,7 @@ int main() {
                     arr[j] = -1;  // Mark the element as counted
                 }
             }
-            printf("%d %d", arr[i], count);
+            printf("%d %d\n", arr[i], count);
         }
     }
 
