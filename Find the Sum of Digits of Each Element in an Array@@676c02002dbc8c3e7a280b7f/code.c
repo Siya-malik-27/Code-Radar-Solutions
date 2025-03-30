@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<size;i++){
-        int digit,sum,num;
+        int digit,sum=0,num;
         num=arr[i];
         while(num>0){
             digit=num%10;
