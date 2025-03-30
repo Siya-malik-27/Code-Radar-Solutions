@@ -14,6 +14,7 @@ int main(){
         if(num==arr[i]){
             flag=1;
             index=i;
+            break;
         }
     }
     if(flag){
