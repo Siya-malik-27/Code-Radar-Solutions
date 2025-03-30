@@ -9,9 +9,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int peak,flag=0;
-    for(int i=0;i<n;i++){
-        int num=arr[i+1];
-        if(num>arr[i]&& num>arr[i+2]){
+    for(int i=1;i<n;i++){
+        int num=arr[i];
+        if(num>arr[i-1]&& num>arr[i+1]){
             
             peak=num;
             flag=1;
