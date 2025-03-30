@@ -17,7 +17,7 @@ int main(){
         }
         printf("%d ",sum);
     }
-    printf("%d",count);
+    
     
     
 }
