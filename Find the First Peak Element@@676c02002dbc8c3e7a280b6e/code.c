@@ -13,6 +13,7 @@ int main(){
         int num=arr[i+1];
         if(num>arr[i]&& num>arr[i+2]){
             peak=num;
+            break;
         }
     }
     printf("%d",peak);
