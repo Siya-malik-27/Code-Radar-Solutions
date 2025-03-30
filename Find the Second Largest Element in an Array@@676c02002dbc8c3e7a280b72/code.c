@@ -21,10 +21,9 @@ int main(){
         }
         }
     
-    if(flag){
+    
         printf("%d",smax);
-    }   
-    else{
-        printf("-1");
-    }
+    
+       
+    
 }
