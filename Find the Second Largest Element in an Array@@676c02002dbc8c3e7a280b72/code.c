@@ -12,6 +12,7 @@ int main(){
     for(int i=0;i<n;i++){
         int num=arr[i];
         if(num>max){
+            smax=max;
             max=num;
         }
         else if(smax<max && num!=max){
