@@ -21,10 +21,11 @@ int main(){
                 }
             }
         }
-        
-    }
-    if (prime) {
+        if (prime) {
             count++;
         }
+        
+    }
+    
     printf("%d",count);
 }
