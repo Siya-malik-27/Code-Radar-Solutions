@@ -11,7 +11,7 @@ int main(){
     }
     for(int i=0;i<size;i++){
         if(arr[i]==num){
-            count++
+            count++;
         }
     }
     printf("%d",count);
