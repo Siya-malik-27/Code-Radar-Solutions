@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+#include <stdlib.h>
 int main(){
     int size;
     scanf("%d",&size);;
@@ -9,7 +10,7 @@ int main(){
     }
     for(int i=0;i<size;i++){
         int digit,sum=0,num;
-        num=arr[i];
+        num=abs(arr[i]);
         while(num>0){
             digit=num%10;
             sum+=digit;
