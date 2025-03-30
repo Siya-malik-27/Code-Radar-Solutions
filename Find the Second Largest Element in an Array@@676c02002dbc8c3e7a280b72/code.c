@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int n;
+    int n,flag;
     scanf("%d",&n);
     int arr[n];
     
@@ -17,9 +17,14 @@ int main(){
         }
         else if(smax<max && num!=max){
             smax=num;
+            flag=1;
         }
         }
     
-        
-    printf("%d",smax);
+    if(flag){
+        printf("%d",smax);
+    }   
+    else{
+        printf("-1");
+    }
 }
